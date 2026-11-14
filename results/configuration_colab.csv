@@ -1,0 +1,11 @@
+Item,Value
+Random seed,42
+Cross-validation,"Stratified 10-Fold, shuffle=True"
+Feature selection utama,Chi-Square Top-10
+Main imbalance,"None, SMOTE, ADASYN, ROS"
+Models,"Bagging, Gradient Boosting, Max Voting, AdaBoost, XGBoost"
+Primary metric,MCC
+Secondary metrics,"Macro-F1, Recall, AUC-PR"
+Supporting metrics,"Accuracy, Precision, F1, Kappa, AUC-ROC"
+Runtime main experiment (seconds),110.38439893722534
+Runtime ablation study (seconds),117.93874597549438
